@@ -1,0 +1,30 @@
+
+
+CREATE TABLE IF NOT EXISTS users (
+    id varchar(255) PRIMARY KEY,
+    phone varchar(200) UNIQUE NOT NULL,
+    email varchar(255) UNIQUE NOT NULL,
+    password varchar(255) NOT NULL,
+    confirm_password varchar(255) NOT NULL,
+    name_en varchar(255) NOT NULL,
+    name_bn varchar(255) NOT NULL,
+    father_name_en varchar(255) NOT NULL,
+    father_name_bn varchar(255) NOT NULL,
+    mother_name_en varchar(255) NOT NULL,
+    mother_name_bn varchar(255) NOT NULL,
+    husband_name_en varchar(255) DEFAULT "",
+    husband_name_bn varchar(255) DEFAULT "",
+    wife_name_bn varchar(255) DEFAULT "",
+    wife_name_en varchar(255) DEFAULT "",
+    father_birth_certificate varchar(255) DEFAULT "",
+    mother_birth_certificate varchar(255) DEFAULT "",
+    gender varchar(36) NOT NULL,
+    blood_group varchar(36) DEFAULT "",
+    birth_date varchar(255) NOT NULL,
+    nid_or_birth_certificate varchar(255) NOT NULL,
+    religion varchar(36) NOT NULL,
+    tcb_code varchar(255) NOT NULL,
+    village_en varchar(255) NOT NULL,
+    village_bn varchar(255) NOT NULL,
+    holding_no varchar(255) NOT NULL
+)
