@@ -10,7 +10,9 @@
 
   "devDependencies": {
 
-    "@types/node": "^24.7.0",
+    "@types/express": "^5.0.5",
+
+    "@types/node": "^24.10.1",
 
     "typescript": "^5.9.3"
 
@@ -22,7 +24,7 @@
 
     "start": "node server.ts",
 
-    "dev": "nodemon  server.ts"
+    "dev": "nodemon node server.ts"
 
   },
 
