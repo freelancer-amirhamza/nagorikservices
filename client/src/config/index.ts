@@ -24,7 +24,7 @@ export const admin_nav_items = [
     {icon:RiLoginBoxLine, label:"ড্যাসবোর্ড", path:"/dashboard"},
     {icon:AiOutlineFileSearch, label:"নাগরিক তৈরী করুন", path:"/"},
     {icon:AiOutlineFileSearch, label:"নাগরিকের তালিকা", path:"/"},
-    {icon:RiHomeOfficeLine, label:"নতুন আবেদন করুন", path:"/"},
+    {icon:RiHomeOfficeLine, label:"নতুন আবেদন করুন", path:"/dashboard/services"},
     {icon:MdAddCall, label:"সকল আবেদনের তালিকা", path:"/"},
     {icon:MdAddCall, label:"ইউনিয়ন অনুযায়ী ট্রেড লাইসেন্স রিপোর্ট", path:"/"},
 ]
@@ -80,7 +80,7 @@ export const emergency_services = [
 
 
 export const applicationInfo = [
-    
+
     {
         title:"০৮/১০/২০২৫ তারিখের তথ্য",
         info:[

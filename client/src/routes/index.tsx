@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import Login from "../pages/Login";
 import Dashboard from "../admin/pages/Dashboard";
 import AdminHome from "../admin/pages/AdminHome";
+import AdminServices from "../admin/pages/AdminServices";
 
 
 
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
             {
                 path:"",
                 element:<AdminHome/>
+            },
+            {
+                path:"services",
+                element:<AdminServices/>
             }
         ]
     }
